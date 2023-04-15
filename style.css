@@ -55,6 +55,14 @@ body {
   margin: 40px auto;
 }
 
+/* Add CSS styles to the grid container to define the grid layout */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  gap: 10px;
+}
+
+
 h1 {
   font-family: Lato;
   font-size: 32px;
@@ -72,6 +80,10 @@ h2, h3{
   text-align: center;
 }
 
+hr{
+  color: #0D4C92;
+}
+
 .img-circle {
   border-radius: 50%;
   height: 150px;
@@ -79,14 +91,14 @@ h2, h3{
   align-content: center;
 }
 
-li {
+/* li {
   color: #002B5B;
   display: inline;
 }
 
 ul {
   list-style-type: none;
-}
+} */
 
 .row {
   margin-top: 15px;
