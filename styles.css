@@ -1,16 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
 
-
 .container {
-  width: 700px;
+  width: 100%;
+  max-width: 700px;
   margin: 40px auto;
   background-color: #FAF0E4;
-}
-
-@media (max-width: 540px) {
-  .project-container a {
-    flex-basis: 100%;
-  }
 }
 
 @media (max-width: 960px) {
@@ -31,6 +25,18 @@
   /* For a screen < 540px, this CSS will be read */
   .container {
     width: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .d-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .d-grid img{
+    width: 13rem;
   }
 }
 
@@ -126,4 +132,3 @@ p{
 .d-grid img{
   border-radius: 10px;
 }
-
