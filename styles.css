@@ -7,6 +7,12 @@
   background-color: #FAF0E4;
 }
 
+@media (max-width: 540px) {
+  .project-container a {
+    flex-basis: 100%;
+  }
+}
+
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
@@ -112,7 +118,7 @@ p{
   text-align: center;
 }
 
-.d-grid{
+.d-grid {
   display: grid;
   align-content: center;
 }
@@ -120,3 +126,4 @@ p{
 .d-grid img{
   border-radius: 10px;
 }
+
