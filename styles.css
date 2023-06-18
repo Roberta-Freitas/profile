@@ -5,7 +5,6 @@
   width: 700px;
   margin: 40px auto;
   background-color: #FAF0E4;
-  /* text-align: center; */
 }
 
 @media (max-width: 960px) {
@@ -52,9 +51,7 @@ body {
 
 .card {
   position: relative;
-  /* background-color: #F9F5EB; */
   padding: 40px;
-  /* box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1); */
   border-radius: 20px;
   margin: 20px 0px;
   transition: transform 0.5s, box-shadow 0.5s;
@@ -120,4 +117,6 @@ p{
   align-content: center;
 }
 
-
+.d-grid img{
+  border-radius: 10px;
+}
